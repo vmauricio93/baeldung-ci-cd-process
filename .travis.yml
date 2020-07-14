@@ -2,4 +2,4 @@ language: java
 jdk:
   - openjdk11
 script:
-  - ./cicd/mvnw clean install
+  - cd cicd && ./mvnw clean install
